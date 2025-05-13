@@ -1,6 +1,0 @@
-scikit-learn
-pandas
-pyttsx3
-openai
-requests
-python-dotenv
