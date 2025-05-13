@@ -56,7 +56,7 @@ Here's how the system is architected:
 ## Implementation Overview : 
 
 - `main.py`: Orchestrates the interaction with the user and integration of API
-- `visualize.py`: Contains dataset visualizations
+- `visualize.py`: Contains dataset visualizations (un-comment the code snippets to visualise different aspects)
 - `classifier.py`: Trains an SVM on symptom-disease data.
 
 The backend is in **Python**, with **scikit-learn** for ML, **pandas** for data handling, and **requests** for API interaction.
