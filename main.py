@@ -6,8 +6,8 @@ import requests
 HUGGINGFACE_API_KEY = "YOUR HUGGING FACE API KEY "
 MODEL = "HuggingFaceH4/zephyr-7b-beta" 
 # Load the datasets
-description_df = pd.read_csv(r"MasterData\symptom_Description.csv")
-precaution_df = pd.read_csv(r"MasterData\symptom_precaution.csv")
+description_df = pd.read_csv(r"Data\symptom_Description.csv")
+precaution_df = pd.read_csv(r"Data\symptom_precaution.csv")
 
 
 def query_llm(description, precautions, disease):
