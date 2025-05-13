@@ -17,8 +17,8 @@ The core idea was to create a modular toolkit that could do more than just class
 - Predict disease based on the symptom using ML classifiers
 - Visualise patterns in symptom to improve understanding of the dataset.
 - Integrate with LLMs to allow a conversational interface for medical queris 
-
 This was both a learning exercise and a prototype for how ML + LLMs can assist in real-world health applications.
+
 ---
 ## Choosing the Dataset
 I used publicly available structured datasets related to healthcare symptoms and diseases. These included:
@@ -28,6 +28,7 @@ I used publicly available structured datasets related to healthcare symptoms and
 - `symptom_description.csv` – Short text-based descriptions of symptoms.
 
 The data was pre-cleaned but still needed formatting, label encoding, and transformation for use with machine learning models.
+
 ---
 ## Visualising the dataset 
 
@@ -59,6 +60,7 @@ Here's how the system is architected:
 - `classifier.py`: Trains an SVM on symptom-disease data.
 
 The backend is in **Python**, with **scikit-learn** for ML, **pandas** for data handling, and **requests** for API interaction.
+
 ---
 ## Understanding Classifiers 
 
@@ -75,11 +77,15 @@ This project helped me combine :
 - Data engineering
 - LLM integration with APIs
 ---
+
 I will continue to improve this project over time. Feel free to explore, fork and build upon it. 
+
 ---
+
 Disclaimer: The exact original source of the datasets (dataset.csv, symptom_severity.csv, symptom_precaution.csv, and symptom_description.csv) is currently unknown. These files have been circulated in public repositories and educational projects related to symptom-based disease classification, particularly on platforms like Kaggle and GitHub.
 
 If you are the original author or know the official source, please let me know so I can properly attribute and cite the dataset.
+
 ---
 
 
